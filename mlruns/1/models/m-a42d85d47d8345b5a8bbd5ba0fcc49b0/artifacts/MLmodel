@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/Shwetha/Downloads/ML/mlruns/1/models/m-a42d85d47d8345b5a8bbd5ba0fcc49b0/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.18.0
+model_id: m-a42d85d47d8345b5a8bbd5ba0fcc49b0
+model_size_bytes: 1733265
+model_uuid: m-a42d85d47d8345b5a8bbd5ba0fcc49b0
+prompts: null
+run_id: 9e501e77e3454f26a60b19ce52026e34
+utc_time_created: '2026-11-17 09:13:02.831777'
